@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Water Gun</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icons8-game-controller-32.png" type="image/x-icon">
+
+</head>
+<body>
+    <h1><span id="span1">Snake</span> <span id="span2">Water</span> <span id="span3">🔫Gun<div id="gun">🔫</div></span></h1>
+
+    
+
+    <div class="game">
+        <img class="vsLogo" src="vsLogo.jpg" alt="">
+        <div class="player">
+            <p>PLAYER</p>
+            <div class="options">
+                <div id="option1" onclick="func1()" value="snake">SNAKE</div>
+                <div id="option2" onclick="func2()" value="water">WATER</div>
+                <div id="option3" onclick="func3()" value="gun">GUN</div>
+            </div>
+            <img id="playerImage" src="" alt="">
+        </div>
+        <div class="pc">
+            <p>COMPUTER</p>            
+            <img id="pcImage" src="" alt="">            
+        </div>
+        <div id="result">
+
+        </div>
+        <button id="play" onclick="start()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
